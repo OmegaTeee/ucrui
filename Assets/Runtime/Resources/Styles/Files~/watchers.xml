@@ -1,0 +1,28 @@
+<TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="$FileNameWithoutAllExtensions$.puss -o $FileNameWithoutAllExtensions$.uss --config postcss.config.js" />
+    <option name="checkSyntaxErrors" value="false" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ALWAYS" />
+    <option name="fileExtension" value="uss" />
+    <option name="immediateSync" value="true" />
+    <option name="name" value="USS" />
+    <option name="output" value="$FileNameWithoutAllExtension$.uss" />
+    <option name="outputFilters">
+      <array>
+        <FilterInfo>
+          <option name="description" value="" />
+          <option name="name" value="" />
+          <option name="regExp" value="$FILE_PATH$:$LINE$:$COLUMN$.*" />
+        </FilterInfo>
+      </array>
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="postcss" />
+    <option name="runOnExternalChanges" value="true" />
+    <option name="scopeName" value="All Places" />
+    <option name="trackOnlyRoot" value="true" />
+    <option name="workingDir" value="$FileDir$" />
+    <envs />
+  </TaskOptions>
+</TaskOptions>
