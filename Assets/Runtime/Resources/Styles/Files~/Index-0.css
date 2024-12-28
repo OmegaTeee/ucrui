@@ -1,0 +1,11 @@
+@import '_Variables.css';
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}

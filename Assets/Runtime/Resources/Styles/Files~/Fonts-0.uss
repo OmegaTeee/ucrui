@@ -1,0 +1,61 @@
+.font-outline {
+    -unity-text-outline-width: 1.2px;
+    -unity-text-outline-color: var(--text-outline);
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+    letter-spacing: var(--text-kern);
+}
+
+.display-900 {
+    -unity-font-definition: var(--font-display-outline);
+}
+
+.display-700 {
+    -unity-font-definition: var(--font-display);
+}
+
+.text-900 {
+    -unity-font-definition: var(--font-text-outline);
+}
+
+.text-700 {
+    -unity-font-definition: var(--font-text);
+}
+
+.font-outline-700 {
+    -unity-text-outline-width: 1.4px;
+    -unity-text-outline-color: var(--text-outline);
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+    letter-spacing: var(--text-kern);
+    -unity-font-style: bold;
+}
+
+.font-outline-900 {
+    -unity-text-outline-width: 1.6px;
+    -unity-text-outline-color: var(--text-outline);
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+    letter-spacing: var(--text-kern);
+    -unity-font-style: bold;
+}
+
+.font-easy-chat {
+    -unity-font-definition: resource('Fonts/Eazy-Chat-SDF');
+}
+
+.font-clean-cafe {
+    -unity-font-definition: resource('Fonts/Clean-Cafe SDF');
+}
+
+.font-lonely-cake {
+    -unity-font-definition: resource('Fonts/Lonely-Cake-SDF');
+}
+
+
+
+                            
+/* Shorthand 
+-unity-text-outline: <length> | <color>
+-unity-text-generator: standard | advanced
+*/

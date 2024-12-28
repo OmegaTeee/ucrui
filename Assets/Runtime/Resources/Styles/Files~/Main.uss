@@ -1,0 +1,5 @@
+VisualElement {
+    -unity-font: resource("Fonts/consola.ttf");
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-background-image-tint-color: white;
+}

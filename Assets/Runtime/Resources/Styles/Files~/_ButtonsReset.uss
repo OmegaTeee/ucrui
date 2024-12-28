@@ -1,0 +1,34 @@
+.unity-button.cui-button {
+    -unity-text-outline-color: var(--text-outline);
+    -unity-text-outline-width: var(--text-outline-width);
+    -unity-font-definition: var(--font-display-outline);
+    text-shadow: var(--text-shadow);
+    padding: var(--button-space);
+}
+
+.unity-button.cui-button:hover {
+    background-image: var(--button-sprite);
+    padding: var(--button-space);
+}
+
+.unity-button.cui-button:active {
+    background-image: var(--button-sprite);
+    padding: var(--button-space);
+}
+
+.unity-button.cui-button:focus {
+    background-image: var(--button-sprite-press);
+    padding: var(--button-space-press);
+}
+
+.unity-button.cui-button-primary:hover {
+    -unity-background-image-tint-color: var(--violet-400);
+}
+
+.unity-button.cui-button-alt:hover {
+    -unity-background-image-tint-color: var(--cyan-400);
+}
+
+.unity-button.cui-button-secondary:hover {
+    -unity-background-image-tint-color: var(--lime-400);
+}
