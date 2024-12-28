@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="CasualUiE_VisualElement" view-data-key="CasualUiE_VisualElement_Key" class="visual-element" style="flex-grow: 1;" />
+</ui:UXML>

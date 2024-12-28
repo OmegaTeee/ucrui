@@ -1,0 +1,77 @@
+.font-outline {
+    -unity-text-outline-color: var(--text-outline);
+    -unity-text-outline-width: var(--text-outline-width);
+    text-shadow: var(--text-shadow);
+}
+
+.text-sm-outline {
+    font-size: var(--text-xs);
+    text-shadow: var(--text-shadow);
+    letter-spacing: var(--text-kern);
+    -unity-font-definition: var(--font-text-outline);
+    -unity-text-outline-color: var(--text-outline);
+    -unity-text-outline-width: var(--text-outline-thin);
+}
+
+.text-sm {
+    font-size: var(--text-xs);
+    letter-spacing: var(--text-kern);
+    -unity-font-definition: var(--font-text);
+}
+
+.text-outline {
+    font-size: var(--text-sm);
+    text-shadow: var(--text-shadow);
+    letter-spacing: var(--text-kern);
+    -unity-font-definition: var(--font-text-outline);
+    -unity-text-outline-color: var(--text-outline);
+    -unity-text-outline-width: var(--text-outline-thin);
+}
+
+.text {
+    font-size: var(--text-sm);
+    letter-spacing: var(--text-kern);
+    -unity-font-definition: var(--font-text);
+}
+
+.title-outline {
+    text-shadow: var(--text-shadow);
+    letter-spacing: var(--text-kern);
+    -unity-font-definition: var(--font-display-outline);
+    -unity-text-outline-color: var(--text-outline);
+    -unity-text-outline-width: var(--text-outline-width);
+}
+
+.title {
+    -unity-font-definition: var(--font-display);
+}
+
+.title-lg-outline {
+    font-size: var(--text-lg);
+    text-shadow: var(--text-shadow);
+    letter-spacing: var(--text-kern);
+    -unity-font-definition: var(--font-display-outline);
+    -unity-text-outline-color: var(--text-outline);
+    -unity-text-outline-width: var(--text-outline-width);
+}
+
+.title-lg {
+    font-size: var(--text-lg);
+    -unity-font-definition: var(--font-display);
+}
+
+.title-xl-outline {
+    font-size: var(--text-xl);
+    text-shadow: var(--text-shadow);
+    letter-spacing: var(--text-kern);
+    -unity-font-definition: var(--font-display-outline);
+    -unity-text-outline-color: var(--text-outline);
+    -unity-text-outline-width: var(--text-outline-width);
+}
+
+.title-xl {
+    font-size: var(--text-xl);
+    -unity-font-definition: var(--font-display);
+}
+
+

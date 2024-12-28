@@ -1,0 +1,86 @@
+/** Define custom properties **/
+@property --custom-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: #000;
+}
+
+@property --custom-size {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 10px;
+}
+
+/** Use custom properties **/
+.custom-element {
+  --custom-color: #3498db;
+  --custom-size: 20px;
+  color: var(--custom-color);
+  font-size: var(--custom-size);
+}
+
+/**
+     <property>                          <inherited> <animatable>        <description>
+    text
+    -unity-background-image-tint-color  No          Fully animatable    Tinting color for the element’s backgroundImage.
+    -unity-background-scale-mode        No          Discrete            Background image scaling in the element’s box.
+    -unity-font                         Yes         Discrete            Font to draw the element’s text, defined as a Font object.
+    -unity-font-definition              Yes         Discrete            Font to draw the element’s text, defined as a FontDefinition structure. It takes precedence over -unity-font.
+    -unity-font-style                   Yes         Discrete            Font style and weight (normal, bold, italic) to draw the element’s text.
+    -unity-overflow-clip-box            No          Discrete            Specifies which box the element content is clipped against.
+    -unity-paragraph-spacing            Yes         Fully animatable    Increases or decreases the space between paragraphs.
+    -unity-slice-bottom                 No          Fully animatable    Size of the 9-slice’s bottom edge when painting an element’s background image.
+    -unity-slice-left                   No          Fully animatable    Size of the 9-slice’s left edge when painting an element’s background image.
+    -unity-slice-right                  No          Fully animatable    Size of the 9-slice’s right edge when painting an element’s background image.
+    -unity-slice-scale                  No          Fully animatable    Scale applied to an element’s slices.
+    -unity-slice-top                    No          Fully animatable    Size of the 9-slice’s top edge when painting an element’s background image.
+    -unity-text-align                   Yes         Discrete            Horizontal and vertical text alignment in the element’s box.
+    -unity-text-outline                 No          Fully animatable    Outline width and color of the text.
+    -unity-text-outline-color           Yes         Fully animatable    Outline color of the text.
+    -unity-text-outline-width           Yes         Fully animatable    Outline width of the text.
+    -unity-text-overflow-position       No          Discrete            The element’s text overflow position.
+
+    box
+    --unity-colors-box-background                           The background color for a box control	rgba(40, 40, 40, 0.3019608)	rgba(185, 185, 185, 0.9019608)	#DEDEDE
+    --unity-colors-box-border                               The border color for a box control	transparent	transparent	#555555
+
+    button
+    --unity-colors-button-background                        The background color for a button control	#585858	#E4E4E4	#E4E4E4
+    --unity-colors-button-background-focus                  The background color for a button control when it has focus	#6E6E6E	#BEBEBE	Undefined
+    --unity-colors-button-background-hover                  The background color for a button control when the mouse pointer hovers over it	#676767	#ECECEC	#ECECEC
+    --unity-colors-button-background-pressed                The background color for a button control when it is pressed	#353535	#B1B1B1	#6F6F6F
+    --unity-colors-button-border                            The border color for a button control	#303030	#B2B2B2	Undefined
+    --unity-colors-button-border_accent                     The border accent color for a button control	#242424	#939393	Undefined
+    --unity-colors-button-border-pressed                    The border color for a button control when it is pressed	#0D0D0D	#707070	Undefined
+    --unity-colors-button-text                              The text color for a button control	#EEEEEE	#090909	#101010
+
+    default
+    --unity-colors-default-background                       The default background color for controls	#282828	#A5A5A5	Undefined
+    --unity-colors-default-border                           The default border color for controls	#232323	#999999	Undefined
+    --unity-colors-default-text                             The default text color	#D2D2D2	#090909	#101010
+    --unity-colors-default-text-hover                       The default text color when the mouse pointer hovers over the text	#BDBDBD	#090909	Undefined
+
+    dropdown
+    --unity-colors-dropdown-background                      The background color for a dropdown control	#515151	#DFDFDF	#DFDFDF
+    --unity-colors-dropdown-background-hover                The background color for a dropdown control when the mouse pointer hovers over it	#585858	#E4E4E4	#E8E8E8
+    --unity-colors-dropdown-border                          The border color for a dropdown control	#303030	#B2B2B2	#999999
+    --unity-colors-dropdown-border_accent                   The border accent color for a dropdown control	#242424	#939393	Undefined
+    --unity-colors-dropdown-text                            The text color for a dropdown control	#E4E4E4	#090909	#101010
+
+    input_field
+    --unity-colors-input_field-background                   The background color for an input field control	#2A2A2A	#F0F0F0	#F0F0F0
+    --unity-colors-input_field-border                       The border color for an input field control	#212121	#B7B7B7	#A0A0A0
+    --unity-colors-input_field-border_accent                The border accent color for an input field control	#0D0D0D	#A0A0A0	Undefined
+    --unity-colors-input_field-border-focus                 The border color for an input field control when it has focus	#3A79BB	#1D5087	#0C6CCB
+    --unity-colors-input_field-border-hover                 The border color for an input field control when the mouse pointer hovers over it	#656565	#6C6C6C	#6C6C6C
+
+    label
+    --unity-colors-label-text                               The text color for a label control	#C4C4C4	#090909	#3B3B3B
+    --unity-colors-label-text-focus                         The text color for a label when it has focus	#81B4FF	#003C88	#074492
+
+    link
+    --unity-colors-link-text                                The text color for unvisited links	#4C7EFF	#4C7EFF	Undefined
+
+    error
+    --unity-colors-error-text                               The text color for error messages	#D32222	#5A0000	Undefined
+**/

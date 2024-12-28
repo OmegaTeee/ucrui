@@ -1,23 +1,27 @@
 module.exports = {
     plugins: [
-        require('postcss-import')({
-            syntax: 'scss',
-        }),
-        require('postcss-mixins')(),
-        require('postcss-nested')(),
-        require('postcss-color-converter')({
-            outputColorFormat: 'rgb',
-            alwaysAlpha: true,
-        }),
-        require('postcss-calc')(),
+        require('postcss-import'),
+        require('postcss-nested'),
+        require('postcss-mixins'),
         require('postcss-preset-env')({
-            stage: 3,
-            autoprefixer: false,
-            features: {
-                'custom-properties': true, // Use CSS variables
-                'nesting-rules': true, // Use nesting rules
-                'custom-selectors': { preserve: true } // Preserve custom selectors
-            }
-        })
+            'stage': false,
+            'preserve': true,
+            'autoprefixer': false,
+            'nesting-rules': true,
+            'custom-selectors': true,
+            'custom-properties': true,
+        }),
+        require('postcss-color-converter')({
+            preserveCustomProps: true,
+            outputColorFormat: 'rgb',
+        }),
+        require('postcss-combine-duplicated-selectors')({
+            removeDuplicatedProperties: true,
+            removeDuplicatedSelectors: true,
+            removeDuplicatedValues: true,
+        }),
+        require('postcss-discard-comments')({
+            removeAll: true,
+        }),
     ]
 };

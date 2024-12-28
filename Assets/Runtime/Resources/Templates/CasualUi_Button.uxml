@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Runtime/Resources/Styles/Buttons.uss?fileID=7433441132597879392&amp;guid=060f0bea8f2784b8db7b268a95be858d&amp;type=3#Buttons" />
+    <ui:Button name="CasualUiE_Button" text="Button" view-data-key="CasualUiE_Button_Key" class="button" />
+</ui:UXML>

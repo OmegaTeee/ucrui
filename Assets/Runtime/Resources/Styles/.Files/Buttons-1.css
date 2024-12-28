@@ -1,0 +1,30 @@
+:root {
+    @import 'Colors/_Tint.uss';
+    @import 'Colors/_Shade.uss';
+    @import 'Colors/_Slate.uss';
+    @import 'Colors/_Violet.uss';
+    @import 'Colors/_Green.uss';
+
+    -unity-text-outline: 2px var(--tint-500);
+    -unity-text-outline-color: var(--tint-500);
+    -unity-text-outline-width: 2px;
+    --button-radius: 13px;
+    --button-stroke: var(--tint-950);
+    --button-stroke-focus: var(--tint-150);
+    --button-stroke-width: 2px;
+    --button-sprite--stone-default: url('../Sprites/ButtonStone@1.png');
+    --button-sprite--stone-pressed: url('../Sprites/ButtonStone_@1.png');
+    --button-sprite--slice: 36;
+    --button-sprite--slice-scale: 1px;
+    --button-inactive--sprite: var(--button-sprite--stone-default);
+    --button-inactive--spacing: 12px 20px 14px 20px;
+    --button-active--sprite: var(--button-sprite--stone-pressed);
+    --button-active--spacing: 13px 20px 13px 20px;
+}
+
+.button {
+    color: var(--slate-800);
+    text-outline: 2px var(--slate-100);
+    font-size: 24px;
+    background-color: var(--green-500);
+}

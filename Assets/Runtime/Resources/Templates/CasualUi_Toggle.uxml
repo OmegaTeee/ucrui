@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Toggle name="CasualUiE_Toggle" label="Toggle" view-data-key="CasualUiE_Toggle_Key" class="toggle" />
+</ui:UXML>

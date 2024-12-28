@@ -1,0 +1,21 @@
+:root {
+    @import url(Colors/_Tint.css);
+    @import url(Colors/_Tone.css);
+    @import url(Colors/_Slate.css);
+    @import url(Colors/_Violet.css);
+    @import url(Colors/_Green.css);
+    --primary-color: var(--violet-500);
+    --secondary-color: var(--green-500);
+    --light-color: var(--slate-100);
+    --dark-color: var(--slate-900);
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}

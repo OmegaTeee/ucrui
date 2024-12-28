@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Label name="CasualUiE_Label" text="Label" view-data-key="CasualUiE_Label_Key" class="label" />
+</ui:UXML>

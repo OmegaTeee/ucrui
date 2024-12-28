@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:ProgressBar name="CasualUiE_ProgressBar" value="25" title="Progress" view-data-key="CasualUiE_ProgressBar_Key" tooltip="Loading" class="progress-bar" />
+</ui:UXML>

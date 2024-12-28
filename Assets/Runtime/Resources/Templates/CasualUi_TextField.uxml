@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:TextField name="CasualUiE_TextField" label="Text Field" placeholder-text="filler text" view-data-key="CasualUiE_TextField_Key" class="text-feild" />
+</ui:UXML>

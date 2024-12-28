@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="CasualUi_Label" src="project://database/Assets/Runtime/Resources/Templates/CasualUi_Label.uxml?fileID=9197481963319205126&amp;guid=11cfcbd5b9d22454299c64f645c25b96&amp;type=3#CasualUi_Label" />
+    <ui:Template name="CasualUi_Button" src="project://database/Assets/Runtime/Resources/Templates/CasualUi_Button.uxml?fileID=9197481963319205126&amp;guid=847212fb6b5b443d286efc2ddf7e649c&amp;type=3#CasualUi_Button" />
+    <ui:Template name="CasualUi_TextField" src="project://database/Assets/Runtime/Resources/Templates/CasualUi_TextField.uxml?fileID=9197481963319205126&amp;guid=259112f8b08fe4048812e21422640a39&amp;type=3#CasualUi_TextField" />
+    <ui:Template name="CasualUi_Slider" src="project://database/Assets/Runtime/Resources/Templates/CasualUi_Slider.uxml?fileID=9197481963319205126&amp;guid=4f51bd7c942dd4d1497b6de2b3748a38&amp;type=3#CasualUi_Slider" />
+    <ui:Template name="CasualUi_ProgressBar" src="project://database/Assets/Runtime/Resources/Templates/CasualUi_ProgressBar.uxml?fileID=9197481963319205126&amp;guid=aa05ff5588c4c4f8fb353f99b22afbde&amp;type=3#CasualUi_ProgressBar" />
+    <ui:Template name="CasualUi_DropdownField" src="project://database/Assets/Runtime/Resources/Templates/CasualUi_DropdownField.uxml?fileID=9197481963319205126&amp;guid=99dd88fcd136b4df9a4b697da2fded87&amp;type=3#CasualUi_DropdownField" />
+    <ui:Template name="CasualUi_RadioButton" src="project://database/Assets/Runtime/Resources/Templates/CasualUi_RadioButton.uxml?fileID=9197481963319205126&amp;guid=9d64d0f42ccce46f48926f0e429b9cf5&amp;type=3#CasualUi_RadioButton" />
+    <ui:Template name="CasualUi_Toggle" src="project://database/Assets/Runtime/Resources/Templates/CasualUi_Toggle.uxml?fileID=9197481963319205126&amp;guid=7922d0172c67242c59fbded485e3f484&amp;type=3#CasualUi_Toggle" />
+    <ui:Template name="CasualUi_VisualElement" src="project://database/Assets/Runtime/Resources/Templates/CasualUi_VisualElement.uxml?fileID=9197481963319205126&amp;guid=77caf874093ff4330b9fbb09685b9669&amp;type=3#CasualUi_VisualElement" />
+    <ui:Instance name="Element_Label_01" template="CasualUi_Label">
+        <AttributeOverrides element-name="CUiE_Label" view-data-key="Element_Label_01Key" />
+    </ui:Instance>
+    <ui:Instance name="Element_Button_01" template="CasualUi_Button">
+        <AttributeOverrides element-name="CUiE_Button" view-data-key="Element_Button_01Key" />
+    </ui:Instance>
+    <ui:Instance name="Element_TextField_01" template="CasualUi_TextField">
+        <AttributeOverrides element-name="CUiE_TextField" view-data-key="Element_TextField_01Key" />
+    </ui:Instance>
+    <ui:Instance name="Element_Slider_01" template="CasualUi_Slider">
+        <AttributeOverrides element-name="CUiE_Slider" view-data-key="Element_Slider_01Key" />
+    </ui:Instance>
+    <ui:Instance name="Element_ProgressBar_01" template="CasualUi_ProgressBar">
+        <AttributeOverrides element-name="CUiE_ProgressBar" view-data-key="Element_ProgressBar_01Key" />
+    </ui:Instance>
+    <ui:Instance name="Element_Dropdown_01" template="CasualUi_DropdownField">
+        <AttributeOverrides element-name="CUiE_Dropdown" view-data-key="Element_Dropdown_01Key" />
+    </ui:Instance>
+    <ui:Instance name="Element_Radio_01" template="CasualUi_RadioButton">
+        <AttributeOverrides element-name="CUiE_RadioButton" view-data-key="Element_Radio_01Key" />
+    </ui:Instance>
+    <ui:Instance name="Element_Toggle_01" template="CasualUi_Toggle">
+        <AttributeOverrides element-name="CUiE_Toggle" view-data-key="Element_Toggle_01Key" />
+    </ui:Instance>
+    <ui:Instance name="Element_VisualElement_01" template="CasualUi_VisualElement">
+        <AttributeOverrides element-name="CUiE_VisualElement" view-data-key="Element_VisualElement_01Key" />
+    </ui:Instance>
+</ui:UXML>

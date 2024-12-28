@@ -1,0 +1,39 @@
+:root {
+    @import '_Colors.uss';
+
+    /* Colors */
+    --lime-400: #8BE963;
+    --lime-500: var(--green-150);
+    --lime-600: #43AD1F;
+    --violet-400: #DA47EB;
+    --violet-500: #CD26D9;
+    --violet-600: #AD33CC;
+    --cyan-400: #63E5E9;
+    --cyan-500: #33CCCC;
+    --cyan-600: #1F9CAD;
+
+    --button-radius: 13px;
+    --button-stroke: rgba(0, 0, 0, 0.5);
+    --button-stroke-focus: rgba(0, 0, 0, 0.9);
+    --button-stroke-width: 2px;
+
+    /* Textures */
+    --button-sprite--stone-default: url('../Sprites/ButtonStone@1.png');
+    --button-sprite--stone-pressed: url('../Sprites/ButtonStone_@1.png');
+    --button-sprite--slice: 36;
+    --button-sprite--slice-scale: 1px;
+
+    /* State */
+    --button-inactive--sprite: var(--button-sprite--stone);
+    --button-inactive--spacing: 12px 20px 14px 20px;
+    --button-active--sprite: var(--button-sprite--stone-pressed);
+    --button-active--spacing: 13px 20px 13px 20px;
+}
+
+.heading {
+    color: var(--slate-800);
+    text-outline: 2px var(--slate-100);
+    font-size: 24px;
+    background-color: var(--green-500);
+    width: calc(100px + 2px);
+}

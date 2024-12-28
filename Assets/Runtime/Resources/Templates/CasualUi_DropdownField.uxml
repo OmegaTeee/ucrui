@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:DropdownField name="CasualUiE_Dropdown" label="Dropdown" view-data-key="CasualUiE_Dropdown_Key" enabled="false" class="dropdown" />
+</ui:UXML>
